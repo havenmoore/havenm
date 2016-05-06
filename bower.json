@@ -1,0 +1,25 @@
+{
+  "name": "havenm",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Haven Moore <haven.moore@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.2.18",
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "bootstrap-social": "^5.0.0",
+    "font-awesome": "^4.6.1",
+    "angular-simple-slideshow": "^0.0.3"
+  }
+}
