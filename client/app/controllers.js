@@ -1,15 +1,18 @@
-function topBarCtrl($scope) {
-  $scope.url = 'haven moore'
+function homeCtrl($scope) {
+    $scope.bio = bio;
+}
 
-  $scope.urlify = function () {
-    $scope.url = 'havenm.org'
-  }
+function resumeCtrl($scope) {
+    $scope.skillsets = skills;
+    $scope.jobs = jobs;
+    $scope.education = education;
+}
 
-  $scope.nameify = function () {
-    $scope.url = 'haven moore'
-  }
-
+function projectsCtrl($scope) {
+    $scope.projectTypes = projects;
 }
 
 angular.module('havenm')
-  .controller('topBarCtrl', topBarCtrl)
+  .controller('homeCtrl', homeCtrl)
+  .controller('resumeCtrl', resumeCtrl)
+  .controller('projectsCtrl', projectsCtrl);

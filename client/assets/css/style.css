@@ -1,0 +1,58 @@
+a {
+    text-decoration: none !important;
+    color: grey !important;
+}
+
+h3 {
+    color: grey !important;
+}
+
+h4 {
+    border-bottom: 1px solid gainsboro;
+}
+
+.navbar-brand {
+    font-size: 24px !important;
+}
+
+.contact-row {
+    padding: 4px 0px;
+}
+
+.contact-icon {
+    font-size: 24px !important;
+    position: relative;
+    color: grey !important;
+    width: 24px;
+}
+
+.contact-text {
+    font-size: 14px;
+    position: relative;
+    color: grey;
+    padding-left: 10px;
+    font-weight: normal;
+    bottom: 4px;
+}
+
+.home-image {
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.resume-skill-block {
+    padding-left: 20px;
+}
+
+.Experienced {
+    color: darkred;
+}
+
+.Proficient {
+    color: darkmagenta;
+}
+
+.Familiar {
+    color: darkblue;
+}

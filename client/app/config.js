@@ -10,16 +10,23 @@ function config($stateProvider, $urlRouterProvider) {
     })
     .state('hm.home', {
       url: '/home',
-      templateUrl: "views/home.html"
+      templateUrl: "views/home.html",
+      controller: "homeCtrl"
     })
     .state('hm.resume', {
       url: "/resume",
-      templateUrl: "views/resume.html"
+      templateUrl: "views/resume.html",
+      controller: "resumeCtrl"
     })
     .state('hm.projects', {
       url: "/projects",
-      templateUrl: "views/projects.html"
+      templateUrl: "views/projects.html",
+      controller: "projectsCtrl"
     })
+    .state('hm.interests', {
+      url: "/interests",
+      templateUrl: "views/interests.html"
+    });
 }
 angular
   .module('havenm')

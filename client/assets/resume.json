@@ -1,0 +1,99 @@
+{
+    "Skills": {
+        "Languages": {
+            "Python": "Experienced",
+            "Javascript": "Experienced",
+            "HTML": "Experienced",
+            "C": "Proficient",
+            "C++": "Proficient",
+            "CSS": "Proficient",
+            "Sass": "Familiar",
+            "Assembly (MIPS, ARM)": "Familiar"
+        },
+        "Web Development": {
+            "AngularJS": "Experienced",
+            "Flask": "Experienced",
+            "Twitter Bootstrap": "Experienced",
+            "Nginx": "Experienced",
+            "jQuery": "Proficient",
+            "Backbone.js": "Proficient",
+            "Django": "Proficient",
+            "D3.js": "Familiar",
+            "Node.js": "Familiar",
+            "hapi.js": "Familiar",
+        },
+        "Database and ORMs": {
+            "MongoDB": "Experienced",
+            "PostgreSQL": "Experienced",
+            "PyMongo": "Experienced",
+            "Peewee": "Experienced",
+            "SQLite": "Proficient",
+            "SQLAlchemy": "Proficient",
+            "Django ORM": "Proficient",
+            "MySQL": "Familiar",
+            "mongoose": "Familiar"
+        },
+        "Environments / DevOps": {
+            "Unix & Linux": "Experienced",
+            "Amazon Web Services": "Experienced",
+            "Gulp": "Experienced",
+            "Git": "Experienced",
+            "Vagrant": "Proficient",
+            "Ansible": "Familiar",
+            "SVN": "Proficient"
+        },
+        "Miscellaneous": {
+            "gcc": "Experienced",
+            "LLVM": "Proficient",
+            "ARM toolchains": "Proficient",
+            "MATLAB": "Proficient",
+            "Microsoft Excel": "Proficient",
+            "Biopython": "Familiar",
+            "Verilog": "Familiar",
+            "Libero IDE": "Familiar",
+            "Actel SoftConsole": "Familiar",
+            "Actel SmartFusion": "Familiar",
+            "Maple": "Familiar"
+        }
+    },
+    "Jobs": [
+        {
+            "Company": "Bizzy",
+            "Role": "Software Engineer",
+            "Start": "June 2016",
+            "End": "August 2016",
+            "Details": [
+                "Worked as part of a four person development team to design and implement code that allowed small businesses to integrate with commerce platforms to create and manage email marketing campaigns targeting hundreds of thousands of customers."
+            ]
+        },
+        {
+            "Company": "Rex Animal Health",
+            "Role": "Cofounder, Software Engineer",
+            "Start": "March 2014",
+            "End": "April 2016",
+            "Details": [
+                "Cofounded company in March of 2014. Grew from 2 founders to 6 employees",
+                "Responsible for variety of technical tasks included data analysis, data modeling, ETL, DevOps, design work, architecture and implementation of frontend and backend code for web application.",
+                "Manage a team of 3 developers (including self) and one designer to analyze available data and resources, implement, and iterate on multiple platforms.",
+                "Techstars Alumni (Sprint Accelerator, 2015)"
+            ]
+        },
+        {
+            "Company": "Osha Liang LLP",
+            "Role": "Patent Engineer",
+            "Start": "June 2012",
+            "End": "August 2013",
+            "Details": [
+                "Worked with inventors and in-house counsel at various software and computer technology companies to draft patent applications.",
+                "Worked with the USPTO to advance the prosecution of patent applications.",
+                "Heavy emphasis on technical writing and communication, as well as the ability to understand and concisely explain complex software and technology concepts."
+            ]
+        }
+    ],
+    "Education": {
+        "College": "University of Michigan",
+        "Degree": "BSE Computer Engineering",
+        "Start": "September 2007",
+        "End": "December - 2011"
+    }
+}
