@@ -5,6 +5,7 @@ var skills = [
             { skill: "Python", proficiency: "Experienced" },
             { skill: "Javascript", proficiency: "Experienced" },
             { skill: "HTML", proficiency: "Experienced" },
+            { skill: "Scala", proficiency: "Proficient" },
             { skill: "C", proficiency: "Proficient" },
             { skill: "C++", proficiency: "Proficient" },
             { skill: "CSS", proficiency: "Proficient" },
@@ -18,6 +19,9 @@ var skills = [
             { skill: "Flask", proficiency: "Experienced" },
             { skill: "Twitter Bootstrap", proficiency: "Experienced" },
             { skill: "Nginx", proficiency: "Experienced" },
+            { skill: "React", proficiency: "Proficient" },
+            { skill: "Finatra", proficiency: "Proficient" },
+            { skill: "Finagle", proficiency: "Proficient" },
             { skill: "jQuery", proficiency: "Proficient" },
             { skill: "Backbone.js", proficiency: "Proficient" },
             { skill: "Django", proficiency: "Proficient" },
@@ -45,18 +49,23 @@ var skills = [
             { skill: "Amazon Web Services", proficiency: "Experienced" },
             { skill: "Gulp", proficiency: "Experienced" },
             { skill: "Git", proficiency: "Experienced" },
+            { skill: "DigitalOcean", proficiency: "Proficient" },
             { skill: "Vagrant", proficiency: "Proficient" },
-            { skill: "Ansible", proficiency: "Familiar" },
-            { skill: "SVN", proficiency: "Proficient" }
+            { skill: "SVN", proficiency: "Proficient" },
+            { skill: "Ansible", proficiency: "Familiar" }
         ]
     }, {
         skillset: "Miscellaneous",
         skills: [
             { skill: "gcc", proficiency: "Experienced" },
+            { skill: "vim", proficiency: "Experienced" },
+            { skill: "thrift", proficiency: "Proficient" },
             { skill: "LLVM", proficiency: "Proficient" },
             { skill: "ARM toolchains", proficiency: "Proficient" },
+            { skill: "IntelliJ", proficiency: "Proficient" },
             { skill: "MATLAB", proficiency: "Proficient" },
             { skill: "Microsoft Excel", proficiency: "Proficient" },
+            { skill: "Kafka / Zookeeper", proficiency: "Familiar" },
             { skill: "Biopython", proficiency: "Familiar" },
             { skill: "Verilog", proficiency: "Familiar" },
             { skill: "Libero IDE", proficiency: "Familiar" },
@@ -69,7 +78,18 @@ var skills = [
 
 var jobs = [
     {
+        company: "Clara",
+        website: "www.clara.com",
+        role: "Software Engineer",
+        start_date: "September 2016",
+        end_date: "Present",
+        details: [
+            "Work as part of a constantly growing team to create a rules engine and support tool for the sales and loan operations division of the company.  Responsibilities involved understanding and complex business logic, integrating with vendors as well as other teams withing the company and implementing a novel workflow application to make the various parts of the mortgage creation process, smooth fast and efficient."
+        ]
+    },
+    {
         company: "Bizzy",
+        website: "www.bizzy.io",
         role: "Software Engineer",
         start_date: "June 2016",
         end_date: "August 2016",
@@ -79,6 +99,7 @@ var jobs = [
     },
     {
         company: "Rex Animal Health",
+        website: "www.rexanimalhealth.com",
         role: "Cofounder, Software Engineer",
         start_date: "March 2014",
         end_date: "April 2016",
@@ -91,6 +112,7 @@ var jobs = [
     },
     {
         company: "Osha Liang LLP",
+        website: "www.oshaliang.com",
         role: "Patent Engineer",
         start_date: "June 2012",
         end_date: "August 2013",
