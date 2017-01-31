@@ -79,7 +79,7 @@ var skills = [
 var jobs = [
     {
         company: "Clara",
-        website: "www.clara.com",
+        website: "https://www.clara.com",
         role: "Software Engineer",
         start_date: "September 2016",
         end_date: "Present",
@@ -89,7 +89,7 @@ var jobs = [
     },
     {
         company: "Bizzy",
-        website: "www.bizzy.io",
+        website: "http://bizzy.io",
         role: "Software Engineer",
         start_date: "June 2016",
         end_date: "August 2016",
@@ -99,7 +99,7 @@ var jobs = [
     },
     {
         company: "Rex Animal Health",
-        website: "www.rexanimalhealth.com",
+        website: "http://www.rexanimalhealth.com",
         role: "Cofounder, Software Engineer",
         start_date: "March 2014",
         end_date: "April 2016",
@@ -112,7 +112,7 @@ var jobs = [
     },
     {
         company: "Osha Liang LLP",
-        website: "www.oshaliang.com",
+        website: "http://www.oshaliang.com",
         role: "Patent Engineer",
         start_date: "June 2012",
         end_date: "August 2013",
@@ -134,10 +134,10 @@ var education = {
 var bio = {
     header: "Hi, I'm Haven",
     body: [
-        "I am a software developer residing in the Bay Area. I am interested in (cliche alert) unlocking the power big data, using data in new and interesting ways and creating novel, valuable and engaging data interaction and visualization. I am largely self taught and have experience working on a variety of products focused primarily on the animal health and veterinary industries. This included work with electronic health records, invoicing and production information, diagnostic lab data, goverment and NGO reporting data, which was used for a variety of purposes including visualizing the spread of disease geographically, tracking the antibiotic resistance and building tools to aid in diagnositic and treatment decision making. Additionally I architected and implemented a suite of genomics and bioinformatics tools for aiding in drug discovery.",
-        "In 2014 I cofounded Rex Animal Health with Amado Guloy in Houston Texas. The original concept was a suite of veterinary practice service tools such as locating veterinarians within an the area, comparing the pricing both locally and nationally and easily scheduling an appointment. In March of 2015 the company was accepted into the 2015 Sprint Accelerator (Techstars) in Kansas City, Missouri. While at the accelerator, the company pivoted to the current model of aggregating, standardizing and making easy to access information in the highly fragmented and Animal Health space. Our primary customer segments were the animal producers and the pharmaceutical industry. In early 2016 the company began building out a suite of tools for doing direct genomic analysis of animals to complement this platform.",
-        "Prior to cofounding Rex, I worked in Intellectual Property writing software patents for just over a year. Before that I attended the University of Michigan, majoring in Computer Engineering. My primary focus in school was low level systems including compilers, operating systems and architecture. While in college I was a four year member of the Men's Rowing Team.",
-        "Professionally, I am interested in working in a dynamic and stimulating team-based environment that lets me solve interesting and challenging problems, create cool stuff, and learn from intelligent, experienced and creative people. In my somewhat limited free time I mostly read genre fiction (of varying quality) and occasionally teach myself useless skills. I can juggle (poorly), solve a Rubik's Cube (slowly), and whistle five different ways. I'm also extremely good at bar trivia (references available on request)."
+        "I am a software developer residing in the San Francisco, California. I am interested in (cliché alert) unlocking the power of big data, using it in new and interesting ways and creating novel, valuable and engaging data interaction and visualization. I currently work for Clara Lending, a home financing start-up, working on making the mortgage process faster, more efficient and more transparent.",
+        "In 2014 I cofounded Rex Animal Health with Amado Guloy in Houston, Texas. In March of 2015 the company was accepted into the 2015 Sprint Accelerator (Techstars) in Kansas City, Missouri. While at the accelerator, the company pivoted to the current model of aggregating, standardizing and making easy to access information in the highly fragmented and Animal Health space. The company's primary customer segments are animal producers and the pharmaceutical industry. Later we built out a suite of tools for doing direct genomic analysis of animals to complement this platform.",
+        "I also have experience in the intellectual property industry, writing software patents for major technology companies. I attended the University of Michigan, majoring in Computer Engineering. My primary focus in school was low-level systems including compilers, operating systems and computer architecture. While in college I was a four-year member of the Men's Rowing Team.",
+        "I am interested in working on projects, software and otherwise, that expose me to challenging problems, give me the opportunity to create cool stuff, and learn from intelligent, experienced and creative people. In my somewhat limited free time I mostly read genre fiction (of varying quality) and occasionally teach myself useless skills. I can juggle (poorly), solve a Rubik's Cube (slowly), and whistle five different ways. I'm also extremely good at bar trivia (references available on request)."
     ]
 };
 

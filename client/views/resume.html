@@ -1,4 +1,4 @@
-<h3>Skills</h3>
+<h3 class="grey">Skills</h3>
 <div ng-repeat="skillset in skillsets">
   <h4><b>{{skillset.skillset}}</b></h4>
   <div class="row" class="resume-skill-block">
@@ -7,10 +7,9 @@
     </div>
   </div>
 </div>
-
-<h3>Work Experience</h3>
+<h3 class="grey">Work Experience</h3>
 <div ng-repeat="job in jobs">
-  <h4><b>{{job.company}}</b></h4>
+  <h4><b><a href="{{job.website}}">{{job.company}}</a></b></h4>
   <h5>{{job.role}}<i class="pull-right">{{job.start_date}} - {{job.end_date}}</i></h5>
   <div class="row">
     <div class="col-md-10">
@@ -20,10 +19,9 @@
     </div>
   </div>
 </div>
-<h3>Education</h3>
+<h3 class="grey">Education</h3>
 <h4><b>{{education.college}}</b></h4>
 <h5>{{education.degree}}<i class="pull-right">{{education.start_date}} - {{education.end_date}}</i></h5>
 
-<h3>References</h3>
+<h3 class="grey">References</h3>
 <h5><i>Available on request</i></h5>
-
